@@ -2,6 +2,7 @@ import { Toaster } from "react-hot-toast";
 import { Link, Routes, Route } from "react-router-dom";
 import Lab1 from "./pages/Lab1";
 import Lab2 from "./pages/Lab2";
+import Lab3 from "./pages/Lab3";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
 
             <Link to="/add" className="hover:text-gray-200">
               Lab2
+            </Link>
+            <Link to="/form" className="hover:text-gray-200">
+              Lab3
             </Link>
           </div>
 
@@ -60,6 +64,9 @@ function App() {
 
           {/* Lab 2 */}
           <Route path="/add" element={<Lab2 />} />
+
+          {/* Lab 3 */}
+          <Route path="/form" element={<Lab3 />} />
 
         </Routes>
 
