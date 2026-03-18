@@ -1,11 +1,94 @@
 {
   "stories": [
     {
-      "title": "123",
-      "author": "Nguyễn Văn A",
-      "image": "https://lamia.com.vn/storage/ao-dai/ao-dai-cach-tan-tay-phong-phoi-hoa-dinh-noi-ad138-5.jpg",
-      "description": "123",
+      "title": "Jujutsu Kaisen",
+      "author": "Nguyễn Văn H",
+      "image": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/01/jujutsu-kaisen-theme.jpg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T19:00:00.000Z",
       "id": 1
+    },
+    {
+      "title": "Naruto",
+      "author": "Nguyễn Văn A",
+      "image": "https://symbols.vn/wp-content/uploads/2022/01/Hinh-Anime-Naruto-Luc-Dao-vs-Sasuke-doc-dao.jpg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T10:00:00.000Z",
+      "id": 2
+    },
+    {
+      "title": "One Piece",
+      "author": "Nguyễn Văn A",
+      "image": "https://th.bing.com/th/id/R.b2ead70951db2921c3399f47c540d230?rik=ksJwc0PnHDOCAw&pid=ImgRaw&r=0",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T11:00:00.000Z",
+      "id": 3
+    },
+    {
+      "title": "Thanh Gươm Diệt Quỷ",
+      "author": "Nguyễn Văn A",
+      "image": "https://cdn2.tuoitre.vn/471584752817336320/2025/7/29/gk-lxrywyaap-gm-e1741195506319-1753772196442287159363.jpeg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T12:00:00.000Z",
+      "id": 4
+    },
+    {
+      "title": "Bleach",
+      "author": "Nguyễn Văn B",
+      "image": "https://i.pinimg.com/736x/46/3f/f0/463ff009c07f14cc7066a4cb2c27dba7--vs-google-search.jpg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T13:00:00.000Z",
+      "id": 5
+    },
+    {
+      "title": "Attack on Titan",
+      "author": "Nguyễn Văn C",
+      "image": "https://tse1.explicit.bing.net/th/id/OIP.FG5jVj1S174lIqOTzxl-gAHaD4?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T14:00:00.000Z",
+      "id": 6
+    },
+    {
+      "title": "Dragon Ball",
+      "author": "Nguyễn Văn D",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/05/dragon-ball-10-best-goku-fights-from-the-entire-franchise-ranked-emaki.jpg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T15:00:00.000Z",
+      "id": 7
+    },
+    {
+      "title": "Chainsaw Man",
+      "author": "Nguyễn Văn E",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.oBSKVqnGQ0jWDMc6aM3UcQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T16:00:00.000Z",
+      "id": 8
+    },
+    {
+      "title": "My Hero Academia",
+      "author": "Nguyễn Văn F",
+      "image": "https://www.nme.com/wp-content/uploads/2024/06/My-Hero-Academia-new.jpg",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T17:00:00.000Z",
+      "id": 9
+    },
+    {
+      "title": "Tokyo Revengers",
+      "author": "Nguyễn Văn G",
+      "image": "https://tse1.mm.bing.net/th/id/OIP.0scRQFeJjyezyK3iq6aFHwHaDH?w=2560&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3",
+      "description": "1",
+      "categoryId": 3,
+      "createdAt": "2026-03-18T18:00:00.000Z",
+      "id": 10
     }
   ],
   "categories": [
@@ -20,6 +103,12 @@
       "description": "234",
       "active": true,
       "id": 2
+    },
+    {
+      "title": "Truyên Tranh",
+      "description": "1",
+      "active": true,
+      "id": 3
     }
   ],
   "users": []

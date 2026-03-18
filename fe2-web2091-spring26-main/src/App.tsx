@@ -4,6 +4,7 @@ import Lab1 from "./pages/Lab1";
 import Lab2 from "./pages/Lab2";
 import Lab3 from "./pages/Lab3";
 import Lab4 from "./pages/Lab4";
+import Lab5 from "./pages/lab5";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
             </Link>
             <Link to="/lab4" className="hover:text-gray-200">
               Lab4
+            </Link>
+            <Link to="/lab5" className="hover:text-gray-200">
+              Lab5
             </Link>
           </div>
 
@@ -73,6 +77,8 @@ function App() {
           <Route path="/form" element={<Lab3 />} />
           {/* Lab 4 */}
           <Route path="/lab4" element={<Lab4 />} />
+          {/* Lab 5 */}
+          <Route path="/lab5" element={<Lab5 />} />
 
         </Routes>
 
