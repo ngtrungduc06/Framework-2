@@ -3,6 +3,7 @@ import { Link, Routes, Route } from "react-router-dom";
 import Lab1 from "./pages/Lab1";
 import Lab2 from "./pages/Lab2";
 import Lab3 from "./pages/Lab3";
+import Lab4 from "./pages/Lab4";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
             </Link>
             <Link to="/form" className="hover:text-gray-200">
               Lab3
+            </Link>
+            <Link to="/lab4" className="hover:text-gray-200">
+              Lab4
             </Link>
           </div>
 
@@ -67,6 +71,8 @@ function App() {
 
           {/* Lab 3 */}
           <Route path="/form" element={<Lab3 />} />
+          {/* Lab 4 */}
+          <Route path="/lab4" element={<Lab4 />} />
 
         </Routes>
 
