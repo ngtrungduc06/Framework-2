@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
-import { Image, Input, Popconfirm, Space, Table, message } from "antd";
+import { Image, Input, Popconfirm, Space, Table, Button, message } from "antd";
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const fetchStories = async () => {
@@ -24,6 +25,7 @@ const deleteStory = async (id: number) => {
 export default function StoryList() {
     const [keyword, setKeyword] = useState("");
     const queryClient = useQueryClient();
+    const navigate = useNavigate();
 
     const { data, isLoading, isError } = useQuery({
         queryKey: ["getAllStories"],
@@ -110,14 +112,19 @@ export default function StoryList() {
             title: "Action",
             key: "action",
             render: (_: any, record: any) => (
-                <Popconfirm
-                    title="Bạn có chắc chắn muốn xóa?"
-                    onConfirm={() => handleDelete(record.id)}
-                    okText="Có"
-                    cancelText="Không"
-                >
-                    <a>Xóa</a>
-                </Popconfirm>
+                <Space>
+                    <Button type="link" onClick={() => navigate(`/lab6/${record.id}`)}>
+                        Edit
+                    </Button>
+                    <Popconfirm
+                        title="Bạn có chắc chắn muốn xóa?"
+                        onConfirm={() => handleDelete(record.id)}
+                        okText="Có"
+                        cancelText="Không"
+                    >
+                        <a>Xóa</a>
+                    </Popconfirm>
+                </Space>
             ),
         },
     ];
